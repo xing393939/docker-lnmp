@@ -1,5 +1,4 @@
-FROM php:5.6-fpm
-MAINTAINER Micooz <micooz@hotmail.com>
+FROM daocloud.io/library/php:5.6.17-fpm
 
 RUN apt-get update
 

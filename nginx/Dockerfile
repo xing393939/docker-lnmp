@@ -1,5 +1,4 @@
-FROM nginx
-MAINTAINER Micooz <micooz@hotmail.com>
+FROM daocloud.io/library/nginx:1.9.12
 
 # The configuration for nginx image is quite simple,
 # a nginx.conf is enough.

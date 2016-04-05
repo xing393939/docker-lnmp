@@ -1,5 +1,4 @@
-FROM debian:jessie
-MAINTAINER Micooz <micooz@hotmail.com>
+FROM daocloud.io/ubuntu:trusty
 
 # Basic Requirements
 RUN apt-get update
