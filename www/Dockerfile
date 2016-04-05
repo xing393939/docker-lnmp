@@ -1,8 +1,8 @@
 FROM daocloud.io/ubuntu:trusty
 
 # Basic Requirements
-RUN apt-get update
-RUN apt-get install -y pwgen curl git unzip ssh openssh-server sqlite3 vim
+# RUN apt-get update
+# RUN apt-get install -y pwgen curl git unzip ssh openssh-server sqlite3 vim
 # RUN apt-get install -y php5-cli
 
 # The following installation is base on your own applications.
